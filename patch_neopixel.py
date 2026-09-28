@@ -84,6 +84,12 @@ def apply_patch():
     if old_sleep in code:
         code = code.replace(old_sleep, new_sleep, 1)
 
+    # 6b. Fix hardcoded white progress bar to use LED_PRESETS
+    old_prog = "self._send_led_cmd(1, 255, 255, 255, 0, current_count, 0, 0, 0, 0)"
+    new_prog = "p = self.LED_PRESETS.get(1, (255, 20, 147, 0)); self._send_led_cmd(1, p[0], p[1], p[2], p[3], current_count, 0, 0, 0, 0)"
+    if old_prog in code:
+        code = code.replace(old_prog, new_prog, 1)
+
     # 7. Add core methods
     new_methods = """    def _set_caselight(self, val):
         caselight = self.printer.lookup_object('output_pin caselight', None)
