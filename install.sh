@@ -118,6 +118,9 @@ fi
 
 sleep 2
 
+# 8. Anonymous install counter
+curl -s "https://abacus.jasoncameron.dev/hit/tonngodoc-qidi-plus5-rgb/installs" > /dev/null 2>&1 || true
+
 echo -e "\n${GREEN}=====================================================${NC}"
 echo -e "${GREEN}   🎉 CÀI ĐẶT THÀNH CÔNG MOD RGB CHO QIDI PLUS 5!   ${NC}"
 echo -e "${GREEN}=====================================================${NC}"
