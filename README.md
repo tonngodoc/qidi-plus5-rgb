@@ -33,7 +33,7 @@ Professional NeoPixel underbed LED & chamber light effects mod for **Qidi Plus 5
 | `CANHSATHINHSU` | 🚓 **POLICE STROBE** | Double split flash: Left Blue (0.2s/0.05s) $\rightarrow$ Right Red (0.2s/0.05s) x 10 cycles (10s total), then automatically restores Rainbow wave. |
 | `DISCODANCE` | 🪩 **DISCO DANCE** | Split Blue/Red underbed double strobe synchronized with the chamber light (`caselight`) on the beat x 10 cycles, restores previous chamber light state, and returns to Rainbow wave. |
 | `RGB_RAINBOW` | 🌈 **RAINBOW WAVE** | Smooth flowing 7-color rainbow wave, **with full bypass of the 30-second screen-sleep LED shutoff issue**! |
-| `RGB_AUTO` | ⚡ **AUTO MODE** | Restores default factory lighting tied to printing states. |
+| `RGB_AUTO` | ⚡ **AUTO MODE** | Restores auto lighting: Deep Pink breathing progress bar during active printing (remaining LEDs off). |
 | `RGB_OFF` | 🛑 **LED OFF** | Completely powers off the underbed NeoPixel strip. |
 
 ### 🚀 Quick 1-Line Installation
@@ -96,7 +96,7 @@ Bộ mod hiệu ứng LED gầm (NeoPixel) và đèn thùng máy chuyên nghiệ
 | `CANHSATHINHSU` | 🚓 **POLICE STROBE** | Chớp kép Trái Xanh (0.2s/0.05s) $\rightarrow$ Phải Đỏ (0.2s/0.05s) x 10 chu kỳ (10 giây), kết thúc tự động trở về Cầu vồng 7 màu. |
 | `DISCODANCE` | 🪩 **DISCO DANCE** | Chớp kép gầm Xanh/Đỏ kết hợp chớp nhịp nhàng với đèn thùng máy (`caselight`) x 10 chu kỳ, khôi phục trạng thái ban đầu của đèn thùng và trở về Cầu vồng. |
 | `RGB_RAINBOW` | 🌈 **RAINBOW WAVE** | Bật hiệu ứng sóng cầu vồng mượt mà, **khắc phục triệt để lỗi tắt đèn khi màn hình cảm ứng ngủ sau 30s**! |
-| `RGB_AUTO` | ⚡ **AUTO MODE** | Khôi phục chế độ hiển thị màu theo trạng thái mặc định của máy in. |
+| `RGB_AUTO` | ⚡ **AUTO MODE** | Khôi phục chế độ tự động: Thanh tiến trình nhấp nháy thở màu Hồng Đậm theo % in, phần còn lại tắt đen. |
 | `RGB_OFF` | 🛑 **LED OFF** | Tắt hoàn toàn dải LED gầm. |
 
 ### 🚀 Cài Đặt Nhanh (1 Dòng Lệnh Duy Nhất)

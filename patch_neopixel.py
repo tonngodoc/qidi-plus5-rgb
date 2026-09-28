@@ -84,9 +84,19 @@ def apply_patch():
     if old_sleep in code:
         code = code.replace(old_sleep, new_sleep, 1)
 
-    # 6b. Fix hardcoded white progress bar to use LED_PRESETS
+    # 6b. Set printing progress to Mode 2 (Deep Pink Breathing, remaining LEDs OFF)
+    old_status_printing = "'printing':    (1, self._get_progress_count(), 0),"
+    new_status_printing = "'printing':    (2, self._get_progress_count(), 0), # Deep Pink Breathing Progress"
+    if old_status_printing in code:
+        code = code.replace(old_status_printing, new_status_printing, 1)
+
+    old_preset_2 = "2: (180, 255, 255, 0, 5000, 20),"
+    new_preset_2 = "2: (255, 0, 128, 0, 2000, 25),      # BREATH: Deep Pink Breathing Progress"
+    if old_preset_2 in code:
+        code = code.replace(old_preset_2, new_preset_2, 1)
+
     old_prog = "self._send_led_cmd(1, 255, 255, 255, 0, current_count, 0, 0, 0, 0)"
-    new_prog = "p = self.LED_PRESETS.get(1, (255, 20, 147, 0)); self._send_led_cmd(1, p[0], p[1], p[2], p[3], current_count, 0, 0, 0, 0)"
+    new_prog = "self._send_led_cmd(2, 255, 0, 128, 0, current_count, 0, 0, 2000, 25)"
     if old_prog in code:
         code = code.replace(old_prog, new_prog, 1)
 
