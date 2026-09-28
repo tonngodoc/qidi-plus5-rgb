@@ -28,6 +28,11 @@ Professional NeoPixel underbed LED & chamber light effects mod for **Qidi Plus 5
 
 ### 🌟 Key Features
 
+- 🌸 **Dynamic Deep Pink Breathing Progress Bar:** Real-time print progress indicator that breathes in vibrant Deep Pink (`#FF0080`) as layers advance, while unprinted LEDs stay completely black.
+- 🚓 **Police Strobe (`CANHSATHINHSU`):** High-visibility split double strobe (Left Blue $\leftrightarrow$ Right Red) for urgent notifications or filament runout.
+- 🪩 **Disco Dance (`DISCODANCE`):** Synchronized underbed strobe and chamber light pulse to celebrate completed prints.
+- 🌈 **Rainbow Wave 24/7 (`RGB_RAINBOW`):** Smooth flowing 7-color rainbow wave that stays active continuously, bypassing the 30-second screen-sleep shutoff.
+
 | G-code Macro | Fluidd Button | Description |
 | :--- | :--- | :--- |
 | `CANHSATHINHSU` | 🚓 **POLICE STROBE** | Double split flash: Left Blue (0.2s/0.05s) $\rightarrow$ Right Red (0.2s/0.05s) x 10 cycles (10s total), then automatically restores Rainbow wave. |
@@ -90,6 +95,11 @@ cd ~/qidi-plus5-rgb && bash uninstall.sh
 Bộ mod hiệu ứng LED gầm (NeoPixel) và đèn thùng máy chuyên nghiệp cho máy in 3D **Qidi Plus 5** (và các dòng máy Qidi chạy Klipper trên vi xử lý RK3308 tương thích).
 
 ### 🌟 Tính Năng Nổi Bật
+
+- 🌸 **Thanh tiến trình Thở Hồng Đậm (Deep Pink Breathing):** Hiển thị % tiến độ in trực quan theo thời gian thực — các bóng đã in nhấp nháy thở màu Hồng Đậm (`#FF0080`), các bóng chưa in tắt đen hoàn toàn.
+- 🚓 **Cảnh Sát Hình Sự (`CANHSATHINHSU`):** Chớp kép phân vùng Trái Xanh $\leftrightarrow$ Phải Đỏ báo động khẩn cấp hoặc hết nhựa.
+- 🪩 **Disco Dance (`DISCODANCE`):** Chớp kép gầm Xanh/Đỏ kết hợp nhịp nhàng với đèn thùng máy báo hiệu hoàn thành bản in.
+- 🌈 **Cầu Vồng 7 Màu 24/7 (`RGB_RAINBOW`):** Sóng màu lượn sóng sáng liên tục, khắc phục triệt để lỗi tự tắt đèn khi màn hình cảm ứng ngủ sau 30 giây.
 
 | Lệnh G-code | Nút Bấm Fluidd | Chi Tiết Hoạt Động |
 | :--- | :--- | :--- |
