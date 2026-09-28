@@ -1,4 +1,4 @@
-# 🚨 Qidi Plus 5 - RGB Effects Mod (Police Strobe & Disco Dance)
+# 🚨 Qidi Plus 5 - RGB Effects Mod (Pink Progress, Police Strobe, Disco Dance & Rainbow 24/7)
 
 <div align="center">
 
