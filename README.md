@@ -2,6 +2,12 @@
 
 <div align="center">
 
+<a href="https://hawklabs.vn">
+  <img src="images/hawklabs_logo.png" width="140" alt="HA.WK LABS">
+</a>
+
+<p><strong>HA.WK LABS</strong> • <em>Hardware & Adaptive Works</em></p>
+
 [![Klipper](https://img.shields.io/badge/Klipper-Qidi%20Plus%205-blue.svg)](https://github.com/Klipper3d/klipper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Tested On](https://img.shields.io/badge/Tested%20on-Qidi%20Plus%205%20(RK3308)-orange.svg)](https://qidi3d.com)
@@ -159,6 +165,7 @@ cd ~/qidi-plus5-rgb && bash uninstall.sh
 
 ---
 
-## 📜 License
-
-Released under the [MIT License](LICENSE) - Free and open-source for the entire 3D printing community.
+## 📜 License & Credits
+ 
+- Released under the [MIT License](LICENSE) - Free and open-source for the entire 3D printing community.
+- **Author & Maintainer**: **TÔN NGỘ ĐỘC** ([HA.WK LABS](https://hawklabs.vn) — *Hardware & Adaptive Works*).
