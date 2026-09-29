@@ -13,6 +13,7 @@ NC='\033[0m' # No Color
 
 echo -e "${BLUE}=====================================================${NC}"
 echo -e "${GREEN}      QIDI PLUS 5 - RGB EFFECTS MOD INSTALLER       ${NC}"
+echo -e "${CYAN}      Tác giả: TÔN NGỘ ĐỘC | https://hawklabs.vn    ${NC}"
 echo -e "${BLUE}=====================================================${NC}"
 
 KLIPPER_DIR="/home/qidi/klipper"
@@ -123,6 +124,7 @@ curl -s "https://abacus.jasoncameron.dev/hit/tonngodoc-qidi-plus5-rgb/installs" 
 
 echo -e "\n${GREEN}=====================================================${NC}"
 echo -e "${GREEN}   🎉 CÀI ĐẶT THÀNH CÔNG MOD RGB CHO QIDI PLUS 5!   ${NC}"
+echo -e "${CYAN}   Tác giả: TÔN NGỘ ĐỘC | https://hawklabs.vn        ${NC}"
 echo -e "${GREEN}=====================================================${NC}"
 echo -e "Bạn có thể điều khiển trực tiếp trên Fluidd Dashboard hoặc G-code:"
 echo -e "  - ${BLUE}🚓 CANHSATHINHSU${NC} : Chớp kép Trái Xanh - Phải Đỏ x 10 lần (10s)"
